@@ -1,0 +1,18 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@wdio/cli": "^7.19.6",
+        "chromedriver": "^100.0.0",
+        "wdio-lambdatest-service": "^1.0.8"
+    },
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "dependencies": {
+        "@wdio/local-runner": "^7.19.5",
+        "expat-wasm": "^2.0.2",
+        "wdio-chromedriver-service": "^7.3.2"
+    }
+}
